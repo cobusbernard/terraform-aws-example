@@ -9,11 +9,6 @@ variable "ec2_instance_name" {
   description = "The name to give the instance."
 }
 
-variable "number_of_instances" {
-  type        = number
-  description = "The number of instances to launch."
-}
-
 variable "ec2_ami_id" {
   type        = string
   description = "The AMI ID to use to launch the instance. NB: These differ between regions."
