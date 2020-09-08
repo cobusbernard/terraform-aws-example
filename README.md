@@ -2,6 +2,7 @@
 This solves all your infrastructure needs. (Just kidding, this is just an example :) )
 
 ## Usage
+Sample usage:
 ~~~
 module "my_ec2_instance" {
   source = "github.com/cobusbernard/tf-module-example"
